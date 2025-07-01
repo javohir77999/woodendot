@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+    
+}
+header {
+    width: 100%;
+    height: 105px;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 5%);
+    z-index: 100;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid gray;
+}
+
+header img {
+    height: 36px;
+    object-fit: contain;
+    margin: 0 auto;
+    display: block;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    font-family: 'Cardo';
+    font-weight: 500;
+    font-size: 16px; 
+}
+.navbar a:hover{
+    text-decoration: underline;
+    transition: all 0.3s;
+}
+
+.main-section{
+    background-image: url(../images/IMAGE.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 679px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.main-section div h2{
+    font-family: 'Roboto';
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+
+    padding-bottom: 41px;
+}
+.main-btn{
+    font-family: 'Cardo';
+    width: 204px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background: transparent;
+    backdrop-filter: blur(30px);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 4px 8px;
+    transition: all 0.3s;
+}
+.main-btn:hover{
+    cursor: pointer;
+    transition: all 0.3s;
+    background-color: black;
+    color: aliceblue;
+    backdrop-filter: none;
+    box-shadow: 0px 3px 16px 0px rgb(0 0 0 /30%);
+}
+.icons{
+    height: 100px;
+    display: flex;
+    padding: 57px 43px;
+    justify-content: space-evenly;
+}
+.icon{
+    display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   gap: 10px;
+}
+.icon span ,a{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: rgba(0, 0, 0, 1);
+}
+.icons div:nth-child(5) {
+    padding-left: 100px;
+}
+.second-section{
+    width: 100%;
+    
+}
+.second-section>div:nth-child(2) img{
+    width: 356.2px;
+    height: 320px;
+}
+.second-section>div:nth-child(2){
+    display: flex;
+}
+.product-face_section-item ,
+.product-face_section-item-2,
+.product-face_section-item-3,
+.product-face_section-item-4,
+.product-face_section-item-5{
+    display: flex;
+    gap: 20px;padding-bottom: 20px;
+
+}
+.product-face_section{
+    padding: 20px;
+}
+.product-face_section-item img{
+    padding-top: 100px;
+    width: 900px;
+}
+.product-face_section-title,
+.product-face_section-title-2,
+.product-face_section-title-3,
+.product-face_section-title-4,
+.product-face_section-title-5{
+    padding-top: 162px;
+}
+.product-face_section-title,
+.product-face_section-title-3,
+.product-face_section-title-5{
+    text-align: right;
+}
+.product-face_section-title span ,
+.product-face_section-title-2 span,
+.product-face_section-title-3 span,
+.product-face_section-title-4 span,
+.product-face_section-title-5 span{
+    font-family: 'Cardo';
+    display: block;
+}
+.product-face_section-title :nth-child(2),
+.product-face_section-title-2 :nth-child(2),
+.product-face_section-title-4 :nth-child(2),
+.product-face_section-title-5 :nth-child(2){   
+    font-size: 18px;
+    font-style: italic;
+    line-height: 37px;
+    color: rgba(0, 0, 0, 1);
+    padding-bottom: 18px;
+}
+.product-face_section-title :nth-child(3),
+.product-face_section-title-2 :nth-child(3),
+.product-face_section-title-3 :nth-child(4),
+.product-face_section-title-4 :nth-child(3),
+.product-face_section-title-5 :nth-child(3){
+    line-height: 27px;
+    font-size: 15px;
+    padding-bottom: 14px;
+}
+.product-face_section-title :nth-child(4),
+.product-face_section-item-2 :nth-child(4),
+.product-face_section-title-3 :nth-child(5),
+.product-face_section-title-4 :nth-child(4),
+.product-face_section-title-5 :nth-child(4),
+.product-face_section-title-5 :nth-child(5){
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(82, 82, 82, 1);
+    padding-bottom: 20px;
+}
+.product-face_section-title :nth-child(5),
+.product-face_section-item-2 :nth-child(6),
+.product-face_section-item-3 :nth-child(7),
+.product-face_section-title-4 :nth-child(6),
+.product-face_section-title-5 :nth-child(6){
+    font-family: 'Roboto';
+    display: inline-block;
+    font-size: 17px;
+    line-height: 22px;
+    border-bottom: 1px solid black;
+}
+.product-face_section-item-2 {
+    display: flex;
+    gap: 20px;
+}
+.product-face_section-title p,
+.product-face_section-title-2 p,
+.product-face_section-title-3 p,
+.product-face_section-title-4 p,
+.product-face_section-title-5 p{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 56px;
+}
+.product-face_section-item-2 :nth-child(5),
+.product-face_section-title-3 :nth-child(6),
+.product-face_section-title-4 :nth-child(5){
+    font-size: 16px;
+    line-height: 27px;
+    color: rgba(84, 89, 95, 1);
+    padding-bottom: 20px;
+}
+.product-face_section-title-3 :nth-child(1){
+    font-style: italic;
+    line-height: 29px;
+    font-size: 14px;
+    color: rgba(188, 20, 20, 1);
+    padding-bottom: 20px;
+}
+.product-face_section-title-3 :nth-child(3){
+    font-size: 18px;
+    font-style: italic;
+    line-height: 37px;
+    color: rgba(0, 0, 0, 1);
+    padding-bottom: 10px;
+}
+.product-face_section-title-4 img{
+    padding-top: 35px;
+    display: block;
+}
+.third-section-title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 21px;
+}
+.third-section-title p:first-child{
+    font-size: 30px;
+    font-family: 'Cardo';
+    line-height: 39px;
+    font-weight: 700;
+}
+.third-section-title p:last-child{
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 35px;
+    line-height: 33px
+    
+}
+.third-section-images{
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+}
+.third-section-mini_boxs{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 3px;
+    padding-bottom: 52px;
+}
+.third-section-mini_box{
+    background-color: black;
+    width: 5px;
+    height: 5px;
+}
+.third-section-bottom{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 37px;
+}
+.third-section-bottom p:first-child{
+    font-family: 'Cardo';
+    font-weight: 400;
+    font-style: italic;
+    line-height: 30px;
+    font-size: 17px;
+    color: rgba(2, 2, 2, 1);
+}
+.third-section-bottom p:last-child{
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.third-section-bottom_boxs{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 53px;
+    gap: 10px;
+}
+.third-section-bottom_box1{
+    background-color: black;
+    width: 6px;
+    height: 6px;
+}
+.third-section-bottom_box2{
+    background-color: black;
+    width: 5px;
+    height: 5px;
+}
+.third-section-bottom_box{
+    background-color: black;
+    width: 3px;
+    height: 3px;
+}
+.service-section-boxs{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.service-section-box{
+    width: 100%;
+    height: 330px;
+    transform: scale(0.9);
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Cardo';
+    font-weight: 400;
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: 0px 10px 20px rgb(5 54 77 / 10%);
+}
+.service-section-box:hover{
+    transition: all 0.3s;
+    transform: scale(1);
+    box-shadow: 0px 10px 20px rgb(5 54 77 / 20%);
+}
+.service-section-box img{
+    padding-top: 20px;
+}
+.service-section-box p{
+    font-size: 18px;
+    line-height: 35px;
+}
+.service-section-box span{
+    display: block;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+}
+.service-section-box a{
+    font-family: 'Cardo';
+    display: inline-block;
+    margin-top: 20px;
+    line-height: 15px;
+    font-size: 15px;
+    position: relative;
+}
+.service-section-box a:after {
+  border-radius: 0.14em;
+  border-top: 0.14em solid #2F56B0;
+  content: "";
+  position: absolute;
+  right: 100%;
+  bottom: 0.2em;
+  left: 0;
+  transition: right 0.4s cubic-bezier(0,.5,0,1);
+}
+
+.service-section-box a:hover:after {
+  right: 0;
+}
+.partnyors{
+    font-family: 'Cardo';
+    font-weight: 400;
+    text-align: center;
+    margin-top: 133px;
+}
+.partnyors p{
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.3px;
+    color: rgba(69, 69, 69, 1);
+    padding-bottom: 41px;
+}
+.partnyors img{
+    padding-bottom: 83px;
+}
+.partnyors-next_link {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    align-items: center;
+    
+}
+.partnyors-next_link span{
+    padding-bottom: 20px;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+}
+.partnyors-next_link i{
+    transform: scale(3);
+    color: blue;
+    border-radius: 50%;
+}
+.partnyors-next_link i:hover{
+    transition: all 0.3s;
+    cursor: pointer;
+    color:rgba(34, 193, 195, 1);
+}
+
+footer{
+    padding: 40px 140px;
+    font-family: 'Cardo';
+    background-color: gainsboro;
+}
+.footer-items{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-item{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-images{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.footer-items p{
+   font-size: 21px;
+   line-height: 21px;
+   text-transform: uppercase; 
+   padding-bottom: 45px;
+   color: rgba(0, 0, 0, 1);
+}
+.footer-item a{
+    font-family: 'Cardo';
+    font-size: 15px;
+    line-height: 20px;
+}
+.footer-bottom{
+    font-family: 'Cardo';
+    padding-top: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    grid-area: 50px;
+    flex-direction: row;
+}
+.footer-bottom p:first-child{
+    font-size: 12px;
+    line-height: 22px;
+}
+.footer-bottom p:last-child{
+    font-size: 11px;
+    line-height: 22px;
+}
